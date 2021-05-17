@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "jest",
+    "seeds": "node seeds/index.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +14,17 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2",
+    "handlebars": "^4.7.7",
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaac11195/just-tech-news.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isaac11195/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/isaac11195/just-tech-news#readme"
 }
